@@ -43,4 +43,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+select K0, avg(c21) from tbl1 left join tbl2 on tbl1.K1 = tbl2.K1 where c13 > 400
