@@ -22,4 +22,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-select top(5) * from tbl1 order by c14
+select * from tbl1 order by c14 limit 5
