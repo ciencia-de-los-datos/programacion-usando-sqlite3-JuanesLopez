@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-select strftime('%Y', c14) as 'YEAR', count(*) as 'CANT' from tbl1 where strftime('%Y', c14) = 2018 group by strftime('%Y', c14)
+select strftime('%Y', c14) as 'YEAR', count(*) as 'CANT' from tbl1 where strftime('%Y', c14) = '2018' group by strftime('%Y', c14)
